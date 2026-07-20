@@ -1,0 +1,9 @@
+
+[test]
+pytest>=8
+PyYAML>=6.0
+jsonschema>=4.20
+
+[validation]
+PyYAML>=6.0
+jsonschema>=4.20

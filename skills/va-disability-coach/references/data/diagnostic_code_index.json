@@ -1,0 +1,336 @@
+{
+  "codes": [
+    {
+      "aliases": [
+        "tinnitus",
+        "ringing in ears"
+      ],
+      "automatable": "mechanical",
+      "body_system": "auditory",
+      "diagnostic_code": "6260",
+      "laterality_matters": false,
+      "section": "4.87",
+      "title": "Tinnitus, recurrent"
+    },
+    {
+      "aliases": [
+        "hearing loss",
+        "hearing impairment"
+      ],
+      "automatable": "manual",
+      "body_system": "auditory",
+      "diagnostic_code": "6100",
+      "laterality_matters": false,
+      "section": "4.85",
+      "title": "Hearing impairment"
+    },
+    {
+      "aliases": [
+        "sleep apnea",
+        "obstructive sleep apnea",
+        "central sleep apnea"
+      ],
+      "automatable": "partial",
+      "body_system": "respiratory",
+      "diagnostic_code": "6847",
+      "laterality_matters": false,
+      "section": "4.97",
+      "title": "Sleep apnea syndromes"
+    },
+    {
+      "aliases": [
+        "migraine",
+        "migraines",
+        "headache disorder"
+      ],
+      "automatable": "qualitative",
+      "body_system": "neurologic",
+      "diagnostic_code": "8100",
+      "laterality_matters": false,
+      "section": "4.124a",
+      "title": "Migraine"
+    },
+    {
+      "aliases": [
+        "ptsd",
+        "posttraumatic stress disorder"
+      ],
+      "automatable": "qualitative",
+      "body_system": "mental",
+      "diagnostic_code": "9411",
+      "laterality_matters": false,
+      "section": "4.130",
+      "title": "Posttraumatic stress disorder"
+    },
+    {
+      "aliases": [
+        "depression",
+        "major depressive disorder"
+      ],
+      "automatable": "qualitative",
+      "body_system": "mental",
+      "diagnostic_code": "9434",
+      "laterality_matters": false,
+      "section": "4.130",
+      "title": "Major depressive disorder"
+    },
+    {
+      "aliases": [
+        "anxiety",
+        "unspecified anxiety disorder"
+      ],
+      "automatable": "qualitative",
+      "body_system": "mental",
+      "diagnostic_code": "9413",
+      "laterality_matters": false,
+      "section": "4.130",
+      "title": "Unspecified anxiety disorder"
+    },
+    {
+      "aliases": [
+        "tbi",
+        "traumatic brain injury"
+      ],
+      "automatable": "manual",
+      "body_system": "neurologic",
+      "diagnostic_code": "8045",
+      "laterality_matters": false,
+      "section": "4.124a",
+      "title": "Residuals of traumatic brain injury"
+    },
+    {
+      "aliases": [
+        "back strain",
+        "neck strain",
+        "lumbosacral strain",
+        "cervical strain"
+      ],
+      "automatable": "partial",
+      "body_system": "musculoskeletal",
+      "diagnostic_code": "5237",
+      "laterality_matters": false,
+      "section": "4.71a",
+      "title": "Lumbosacral or cervical strain"
+    },
+    {
+      "aliases": [
+        "degenerative disc disease",
+        "degenerative arthritis spine",
+        "spondylosis"
+      ],
+      "automatable": "manual",
+      "body_system": "musculoskeletal",
+      "diagnostic_code": "5242",
+      "laterality_matters": false,
+      "section": "4.71a",
+      "title": "Degenerative arthritis of the spine"
+    },
+    {
+      "aliases": [
+        "knee flexion",
+        "limited knee bend"
+      ],
+      "automatable": "mechanical",
+      "body_system": "musculoskeletal",
+      "diagnostic_code": "5260",
+      "laterality_matters": true,
+      "section": "4.71a",
+      "title": "Limitation of flexion of the leg"
+    },
+    {
+      "aliases": [
+        "knee extension",
+        "limited knee straightening"
+      ],
+      "automatable": "mechanical",
+      "body_system": "musculoskeletal",
+      "diagnostic_code": "5261",
+      "laterality_matters": true,
+      "section": "4.71a",
+      "title": "Limitation of extension of the leg"
+    },
+    {
+      "aliases": [
+        "shoulder limitation",
+        "limited arm motion"
+      ],
+      "automatable": "partial",
+      "body_system": "musculoskeletal",
+      "diagnostic_code": "5201",
+      "laterality_matters": true,
+      "section": "4.71a",
+      "title": "Limitation of motion of the arm"
+    },
+    {
+      "aliases": [
+        "ankle limitation",
+        "limited ankle motion"
+      ],
+      "automatable": "partial",
+      "body_system": "musculoskeletal",
+      "diagnostic_code": "5271",
+      "laterality_matters": true,
+      "section": "4.71a",
+      "title": "Limited motion of ankle"
+    },
+    {
+      "aliases": [
+        "metatarsalgia",
+        "mortons neuroma"
+      ],
+      "automatable": "mechanical",
+      "body_system": "musculoskeletal",
+      "diagnostic_code": "5279",
+      "laterality_matters": false,
+      "section": "4.71a",
+      "title": "Metatarsalgia, anterior (Morton\u2019s disease)"
+    },
+    {
+      "aliases": [
+        "hallux valgus",
+        "bunion"
+      ],
+      "automatable": "qualitative",
+      "body_system": "musculoskeletal",
+      "diagnostic_code": "5280",
+      "laterality_matters": true,
+      "section": "4.71a",
+      "title": "Hallux valgus, unilateral"
+    },
+    {
+      "aliases": [
+        "foot injury",
+        "foot pain"
+      ],
+      "automatable": "qualitative",
+      "body_system": "musculoskeletal",
+      "diagnostic_code": "5284",
+      "laterality_matters": true,
+      "section": "4.71a",
+      "title": "Other foot injuries"
+    },
+    {
+      "aliases": [
+        "sciatica",
+        "sciatic neuropathy",
+        "lower extremity radiculopathy"
+      ],
+      "automatable": "qualitative",
+      "body_system": "neurologic",
+      "diagnostic_code": "8520",
+      "laterality_matters": true,
+      "section": "4.124a",
+      "title": "Paralysis of the sciatic nerve"
+    },
+    {
+      "aliases": [
+        "vertigo",
+        "peripheral vestibular disorder"
+      ],
+      "automatable": "partial",
+      "body_system": "auditory",
+      "diagnostic_code": "6204",
+      "laterality_matters": false,
+      "section": "4.87",
+      "title": "Peripheral vestibular disorders"
+    },
+    {
+      "aliases": [
+        "allergic rhinitis",
+        "vasomotor rhinitis"
+      ],
+      "automatable": "partial",
+      "body_system": "respiratory",
+      "diagnostic_code": "6522",
+      "laterality_matters": false,
+      "section": "4.97",
+      "title": "Allergic or vasomotor rhinitis"
+    },
+    {
+      "aliases": [
+        "chronic sinusitis",
+        "sinusitis"
+      ],
+      "automatable": "qualitative",
+      "body_system": "respiratory",
+      "diagnostic_code": "6514",
+      "laterality_matters": false,
+      "section": "4.97",
+      "title": "Chronic sphenoid sinusitis (General Rating Formula for Sinusitis)"
+    },
+    {
+      "aliases": [
+        "asthma",
+        "bronchial asthma"
+      ],
+      "automatable": "qualitative",
+      "body_system": "respiratory",
+      "diagnostic_code": "6602",
+      "laterality_matters": false,
+      "section": "4.97",
+      "title": "Bronchial asthma"
+    },
+    {
+      "aliases": [
+        "hypertension",
+        "high blood pressure"
+      ],
+      "automatable": "qualitative",
+      "body_system": "cardiovascular",
+      "diagnostic_code": "7101",
+      "laterality_matters": false,
+      "section": "4.104",
+      "title": "Hypertensive vascular disease"
+    },
+    {
+      "aliases": [
+        "diabetes",
+        "diabetes mellitus"
+      ],
+      "automatable": "qualitative",
+      "body_system": "endocrine",
+      "diagnostic_code": "7913",
+      "laterality_matters": false,
+      "section": "4.119",
+      "title": "Diabetes mellitus"
+    },
+    {
+      "aliases": [
+        "painful scar",
+        "unstable scar"
+      ],
+      "automatable": "partial",
+      "body_system": "skin",
+      "diagnostic_code": "7804",
+      "laterality_matters": false,
+      "section": "4.118",
+      "title": "Unstable or painful scars"
+    },
+    {
+      "aliases": [
+        "superficial scar",
+        "nonlinear scar"
+      ],
+      "automatable": "mechanical",
+      "body_system": "skin",
+      "diagnostic_code": "7802",
+      "laterality_matters": false,
+      "section": "4.118",
+      "title": "Burn scars or scars due to other causes, not of head, face, or neck, not associated with underlying soft-tissue damage"
+    },
+    {
+      "aliases": [
+        "erectile dysfunction",
+        "ed"
+      ],
+      "automatable": "mechanical",
+      "body_system": "genitourinary",
+      "diagnostic_code": "7522",
+      "laterality_matters": false,
+      "section": "4.115b",
+      "title": "Erectile dysfunction, with or without penile deformity"
+    }
+  ],
+  "schema_version": "1.0.0",
+  "snapshot_id": "part4-curated-2026-07-13-v1"
+}

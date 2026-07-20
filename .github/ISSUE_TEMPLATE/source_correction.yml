@@ -1,0 +1,29 @@
+name: Source correction
+description: Correct an authority, date, citation, or reliability classification.
+title: "[Source correction] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include personal medical records, identifiers, credentials, or user-specific claim facts."
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+    validations:
+      required: true
+  - type: textarea
+    id: authority
+    attributes:
+      label: Source, authority class, and effective date
+      description: Provide an official locator when applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction or affected files
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected correction

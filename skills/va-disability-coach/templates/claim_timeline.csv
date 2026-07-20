@@ -1,0 +1,2 @@
+date,event_type,issue_id,description,source,official_deadline,eligibility_window,recommended_milestone,status,notes
+YYYY-MM-DD,example,ISSUE-001,,,,false,false,true,planned,

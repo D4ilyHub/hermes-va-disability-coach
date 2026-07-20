@@ -1,0 +1,50 @@
+issue_id: ISSUE-001
+user_wording: "My exact words for the problem"
+symptom_label: "broad symptom label; do not self-diagnose"
+body_system: musculoskeletal
+laterality: unknown
+diagnosis_status: unknown
+confirmed_diagnosis: null
+diagnosis_source: null
+onset:
+  approximate_date: null
+  certainty: unknown
+  context: ""
+in_service_event_illness_injury_duty_or_exposure: []
+post_service_events: []
+current_symptoms: []
+frequency: null
+severity: null
+duration: null
+variability: null
+triggers: []
+functional_effects: []
+occupational_effects: []
+daily_living_effects: []
+relationship_effects: []
+treatment: []
+medications: []
+medication_side_effects: []
+assistive_devices: []
+relevant_records: []
+relevant_examinations: []
+relevant_decisions: []
+claim_status: "not discussed"
+potential_service_connection_theories: []
+evidence_by_element: {}
+missing_evidence: []
+contradictory_evidence: []
+potentially_related_issues: []
+potential_overlapping_manifestations: []
+potential_rating_criteria: []
+confidence_and_uncertainty: []
+source_provenance:
+  - source_type: user_entered
+    document_name: de-identified coaching note
+    document_date: null
+    page_or_section: issue summary
+    exact_extracted_fact: "Replace with the exact fact supplied; do not infer."
+    fact_character: user_entered
+    confidence: unknown
+    disputed_status: unclear
+last_updated: 2026-07-16

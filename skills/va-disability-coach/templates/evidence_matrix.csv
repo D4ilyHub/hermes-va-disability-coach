@@ -1,0 +1,2 @@
+issue_id,claim_element,theory,evidence_item,source_type,document_name,document_date,page_or_section,exact_fact,fact_character,confidence,disputed_status,gap,next_step
+ISSUE-001,current_disability,direct,,,,,,,,,,,true,

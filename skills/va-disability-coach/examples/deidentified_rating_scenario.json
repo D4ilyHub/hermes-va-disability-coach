@@ -1,0 +1,8 @@
+{
+  "evaluations": [
+    {"issue_id": "EX-001", "label": "generic non-bilateral evaluation A", "percent": 60, "side": "none", "paired_group": "none"},
+    {"issue_id": "EX-002", "label": "generic non-bilateral evaluation B", "percent": 20, "side": "none", "paired_group": "none"},
+    {"issue_id": "EX-003", "label": "generic left lower-extremity evaluation", "percent": 10, "side": "left", "paired_group": "lower_extremities"},
+    {"issue_id": "EX-004", "label": "generic right lower-extremity evaluation", "percent": 10, "side": "right", "paired_group": "lower_extremities"}
+  ]
+}

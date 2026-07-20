@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hermes-va-disability-coach"
+version = "1.0.0"
+description = "Public Hermes capability skill for VA disability education and transition preparation"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "hermes-va-disability-coach contributors"}]
+dependencies = []
+
+[project.optional-dependencies]
+validation = ["PyYAML>=6.0", "jsonschema>=4.20"]
+test = ["pytest>=8", "PyYAML>=6.0", "jsonschema>=4.20"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]

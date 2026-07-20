@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: hermes-va-disability-coach
+Version: 1.0.0
+Summary: Public Hermes capability skill for VA disability education and transition preparation
+Author: hermes-va-disability-coach contributors
+License: MIT
+Requires-Python: >=3.11
+License-File: LICENSE
+Provides-Extra: validation
+Requires-Dist: PyYAML>=6.0; extra == "validation"
+Requires-Dist: jsonschema>=4.20; extra == "validation"
+Provides-Extra: test
+Requires-Dist: pytest>=8; extra == "test"
+Requires-Dist: PyYAML>=6.0; extra == "test"
+Requires-Dist: jsonschema>=4.20; extra == "test"
+Dynamic: license-file

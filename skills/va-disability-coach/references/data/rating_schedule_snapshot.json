@@ -1,0 +1,1417 @@
+{
+  "coverage_status": "partial",
+  "diagnostic_codes": [
+    {
+      "aliases": [
+        "tinnitus",
+        "ringing in ears"
+      ],
+      "automatable": "mechanical",
+      "body_system": "auditory",
+      "criteria": [
+        {
+          "criteria_text": "Recurrent tinnitus.",
+          "judgment": "none",
+          "manual_review_required": false,
+          "percent": 10,
+          "requirements": [
+            {
+              "fact": "tinnitus.recurrent",
+              "operator": "eq",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "diagnostic_code": "6260",
+      "laterality_matters": false,
+      "notes": [
+        "A single evaluation applies whether perceived in one ear, both ears, or the head; do not add a separate tinnitus rating for each ear."
+      ],
+      "section": "4.87",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.87"
+      ],
+      "title": "Tinnitus, recurrent"
+    },
+    {
+      "aliases": [
+        "hearing loss",
+        "hearing impairment"
+      ],
+      "automatable": "manual",
+      "body_system": "auditory",
+      "criteria": [
+        {
+          "criteria_text": "Requires state-licensed audiology testing and mechanical application of the regulatory tables.",
+          "judgment": "medical",
+          "manual_review_required": true,
+          "percent": null,
+          "requirements": [
+            {
+              "fact": "audiology.maryland_cnc_available",
+              "operator": "eq",
+              "value": true
+            },
+            {
+              "fact": "audiology.puretone_thresholds_available",
+              "operator": "eq",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "diagnostic_code": "6100",
+      "laterality_matters": false,
+      "notes": [
+        "The bundled snapshot does not reproduce or automate Tables VI, VIa, VII, or exceptional-pattern rules."
+      ],
+      "section": "4.85",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.85"
+      ],
+      "title": "Hearing impairment"
+    },
+    {
+      "aliases": [
+        "sleep apnea",
+        "obstructive sleep apnea",
+        "central sleep apnea"
+      ],
+      "automatable": "partial",
+      "body_system": "respiratory",
+      "criteria": [
+        {
+          "criteria_text": "Chronic respiratory failure with carbon dioxide retention or cor pulmonale, or tracheostomy required.",
+          "judgment": "medical",
+          "manual_review_required": true,
+          "percent": 100,
+          "requirements": [
+            {
+              "fact": "sleep_apnea.chronic_respiratory_failure_or_cor_pulmonale_or_tracheostomy",
+              "operator": "eq",
+              "value": true
+            }
+          ]
+        },
+        {
+          "criteria_text": "Requires use of a breathing-assistance device such as a CPAP machine.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 50,
+          "requirements": [
+            {
+              "fact": "sleep_apnea.breathing_assistance_device_required",
+              "operator": "eq",
+              "value": true
+            }
+          ]
+        },
+        {
+          "criteria_text": "Persistent daytime hypersomnolence.",
+          "judgment": "medical",
+          "manual_review_required": true,
+          "percent": 30,
+          "requirements": [
+            {
+              "fact": "sleep_apnea.persistent_daytime_hypersomnolence",
+              "operator": "eq",
+              "value": true
+            }
+          ]
+        },
+        {
+          "criteria_text": "Documented sleep-disordered breathing that is asymptomatic.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 0,
+          "requirements": [
+            {
+              "fact": "sleep_apnea.documented_asymptomatic",
+              "operator": "eq",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "diagnostic_code": "6847",
+      "laterality_matters": false,
+      "notes": [
+        "A diagnosis, prescription, treatment use, and rating element are distinct facts. Proposed respiratory-rule changes are not current criteria unless finalized and effective."
+      ],
+      "section": "4.97",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.97"
+      ],
+      "title": "Sleep apnea syndromes"
+    },
+    {
+      "aliases": [
+        "migraine",
+        "migraines",
+        "headache disorder"
+      ],
+      "automatable": "qualitative",
+      "body_system": "neurologic",
+      "criteria": [
+        {
+          "criteria_text": "Very frequent completely prostrating and prolonged attacks productive of severe economic inadaptability.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 50,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Characteristic prostrating attacks occurring on average once a month over the last several months.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 30,
+          "requirements": [
+            {
+              "fact": "migraine.prostrating_attacks_per_month",
+              "operator": ">=",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "criteria_text": "Characteristic prostrating attacks averaging one in two months over the last several months.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 10,
+          "requirements": [
+            {
+              "fact": "migraine.prostrating_attacks_per_two_months",
+              "operator": ">=",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "criteria_text": "Less frequent attacks.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 0,
+          "requirements": []
+        }
+      ],
+      "diagnostic_code": "8100",
+      "laterality_matters": false,
+      "notes": [
+        "\u201cProstrating,\u201d frequency over time, duration, and economic impact require record-based adjudicative judgment."
+      ],
+      "section": "4.124a",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.124a"
+      ],
+      "title": "Migraine"
+    },
+    {
+      "aliases": [
+        "ptsd",
+        "posttraumatic stress disorder"
+      ],
+      "automatable": "qualitative",
+      "body_system": "mental",
+      "criteria": [
+        {
+          "criteria_text": "Total occupational and social impairment.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 100,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Occupational and social impairment with deficiencies in most areas.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 70,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Occupational and social impairment with reduced reliability and productivity.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 50,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Occupational and social impairment with occasional decrease in work efficiency and intermittent inability to perform occupational tasks.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 30,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Mild or transient symptoms decreasing work efficiency only during significant stress, or symptoms controlled by continuous medication.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 10,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Diagnosis with symptoms not severe enough to interfere with occupational and social functioning or require continuous medication.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 0,
+          "requirements": []
+        }
+      ],
+      "diagnostic_code": "9411",
+      "laterality_matters": false,
+      "notes": [
+        "Multiple mental-health diagnoses ordinarily are not assigned separate evaluations for the same manifestations; evaluate the overall impairment without diagnosis shopping."
+      ],
+      "section": "4.130",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.130"
+      ],
+      "title": "Posttraumatic stress disorder"
+    },
+    {
+      "aliases": [
+        "depression",
+        "major depressive disorder"
+      ],
+      "automatable": "qualitative",
+      "body_system": "mental",
+      "criteria": [
+        {
+          "criteria_text": "Total occupational and social impairment.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 100,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Occupational and social impairment with deficiencies in most areas.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 70,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Occupational and social impairment with reduced reliability and productivity.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 50,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Occupational and social impairment with occasional decrease in work efficiency and intermittent inability to perform occupational tasks.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 30,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Mild or transient symptoms decreasing work efficiency only during significant stress, or symptoms controlled by continuous medication.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 10,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Diagnosis with symptoms not severe enough to interfere with occupational and social functioning or require continuous medication.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 0,
+          "requirements": []
+        }
+      ],
+      "diagnostic_code": "9434",
+      "laterality_matters": false,
+      "notes": [
+        "Multiple mental-health diagnoses ordinarily are not assigned separate evaluations for the same manifestations; evaluate the overall impairment without diagnosis shopping."
+      ],
+      "section": "4.130",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.130"
+      ],
+      "title": "Major depressive disorder"
+    },
+    {
+      "aliases": [
+        "anxiety",
+        "unspecified anxiety disorder"
+      ],
+      "automatable": "qualitative",
+      "body_system": "mental",
+      "criteria": [
+        {
+          "criteria_text": "Total occupational and social impairment.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 100,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Occupational and social impairment with deficiencies in most areas.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 70,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Occupational and social impairment with reduced reliability and productivity.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 50,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Occupational and social impairment with occasional decrease in work efficiency and intermittent inability to perform occupational tasks.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 30,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Mild or transient symptoms decreasing work efficiency only during significant stress, or symptoms controlled by continuous medication.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 10,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Diagnosis with symptoms not severe enough to interfere with occupational and social functioning or require continuous medication.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 0,
+          "requirements": []
+        }
+      ],
+      "diagnostic_code": "9413",
+      "laterality_matters": false,
+      "notes": [
+        "Multiple mental-health diagnoses ordinarily are not assigned separate evaluations for the same manifestations; evaluate the overall impairment without diagnosis shopping."
+      ],
+      "section": "4.130",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.130"
+      ],
+      "title": "Unspecified anxiety disorder"
+    },
+    {
+      "aliases": [
+        "tbi",
+        "traumatic brain injury"
+      ],
+      "automatable": "manual",
+      "body_system": "neurologic",
+      "criteria": [
+        {
+          "criteria_text": "Requires facet-by-facet evaluation of cognitive, emotional/behavioral, and physical residuals and careful overlap analysis.",
+          "judgment": "medical_and_adjudicative",
+          "manual_review_required": true,
+          "percent": null,
+          "requirements": []
+        }
+      ],
+      "diagnostic_code": "8045",
+      "laterality_matters": false,
+      "notes": [
+        "TBI and mental-health manifestations may overlap; distinct diagnoses do not automatically justify separate ratings."
+      ],
+      "section": "4.124a",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.124a"
+      ],
+      "title": "Residuals of traumatic brain injury"
+    },
+    {
+      "aliases": [
+        "back strain",
+        "neck strain",
+        "lumbosacral strain",
+        "cervical strain"
+      ],
+      "automatable": "partial",
+      "body_system": "musculoskeletal",
+      "criteria": [
+        {
+          "criteria_text": "Unfavorable ankylosis of the entire spine.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 100,
+          "requirements": [
+            {
+              "fact": "spine.unfavorable_ankylosis_entire",
+              "operator": "eq",
+              "value": true
+            }
+          ]
+        },
+        {
+          "criteria_text": "Unfavorable ankylosis of the entire thoracolumbar spine.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 50,
+          "requirements": [
+            {
+              "fact": "spine.unfavorable_ankylosis_thoracolumbar",
+              "operator": "eq",
+              "value": true
+            }
+          ]
+        },
+        {
+          "criteria_text": "Thoracolumbar forward flexion 30 degrees or less, or favorable ankylosis of the entire thoracolumbar spine.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 40,
+          "requirements": [
+            {
+              "fact": "spine.thoracolumbar_flexion_degrees",
+              "operator": "<=",
+              "value": 30
+            }
+          ]
+        },
+        {
+          "criteria_text": "Cervical forward flexion 15 degrees or less, or favorable ankylosis of the entire cervical spine.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 30,
+          "requirements": [
+            {
+              "fact": "spine.cervical_flexion_degrees",
+              "operator": "<=",
+              "value": 15
+            }
+          ]
+        },
+        {
+          "criteria_text": "Thoracolumbar forward flexion greater than 30 but not greater than 60 degrees; cervical forward flexion greater than 15 but not greater than 30; or qualifying combined motion/guarding findings.",
+          "judgment": "medical",
+          "manual_review_required": true,
+          "percent": 20,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Qualifying lesser range-of-motion, tenderness, spasm, guarding, or vertebral fracture findings.",
+          "judgment": "medical",
+          "manual_review_required": true,
+          "percent": 10,
+          "requirements": []
+        }
+      ],
+      "diagnostic_code": "5237",
+      "laterality_matters": false,
+      "notes": [
+        "Measurements must account for valid examination, pain, repeated use, and flare-ups under current law. Evaluate associated objective neurologic abnormalities separately only when warranted."
+      ],
+      "section": "4.71a",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.71a"
+      ],
+      "title": "Lumbosacral or cervical strain"
+    },
+    {
+      "aliases": [
+        "degenerative disc disease",
+        "degenerative arthritis spine",
+        "spondylosis"
+      ],
+      "automatable": "manual",
+      "body_system": "musculoskeletal",
+      "criteria": [
+        {
+          "criteria_text": "Uses the General Rating Formula for the Spine or, when applicable, the IVDS formula; see DC 5237 snapshot entry.",
+          "judgment": "medical_and_adjudicative",
+          "manual_review_required": true,
+          "percent": null,
+          "requirements": []
+        }
+      ],
+      "diagnostic_code": "5242",
+      "laterality_matters": false,
+      "notes": [
+        "Do not infer IVDS or incapacitating episodes from ordinary bed rest."
+      ],
+      "section": "4.71a",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.71a"
+      ],
+      "title": "Degenerative arthritis of the spine"
+    },
+    {
+      "aliases": [
+        "knee flexion",
+        "limited knee bend"
+      ],
+      "automatable": "mechanical",
+      "body_system": "musculoskeletal",
+      "criteria": [
+        {
+          "criteria_text": "Flexion limited to 15 degrees.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 30,
+          "requirements": [
+            {
+              "fact": "knee.flexion_degrees",
+              "operator": "<=",
+              "value": 15
+            }
+          ]
+        },
+        {
+          "criteria_text": "Flexion limited to 30 degrees.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 20,
+          "requirements": [
+            {
+              "fact": "knee.flexion_degrees",
+              "operator": "<=",
+              "value": 30
+            }
+          ]
+        },
+        {
+          "criteria_text": "Flexion limited to 45 degrees.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 10,
+          "requirements": [
+            {
+              "fact": "knee.flexion_degrees",
+              "operator": "<=",
+              "value": 45
+            }
+          ]
+        },
+        {
+          "criteria_text": "Flexion limited to 60 degrees.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 0,
+          "requirements": [
+            {
+              "fact": "knee.flexion_degrees",
+              "operator": "<=",
+              "value": 60
+            }
+          ]
+        }
+      ],
+      "diagnostic_code": "5260",
+      "laterality_matters": true,
+      "notes": [],
+      "section": "4.71a",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.71a"
+      ],
+      "title": "Limitation of flexion of the leg"
+    },
+    {
+      "aliases": [
+        "knee extension",
+        "limited knee straightening"
+      ],
+      "automatable": "mechanical",
+      "body_system": "musculoskeletal",
+      "criteria": [
+        {
+          "criteria_text": "Extension limited to 45 degrees.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 50,
+          "requirements": [
+            {
+              "fact": "knee.extension_lack_degrees",
+              "operator": ">=",
+              "value": 45
+            }
+          ]
+        },
+        {
+          "criteria_text": "Extension limited to 30 degrees.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 40,
+          "requirements": [
+            {
+              "fact": "knee.extension_lack_degrees",
+              "operator": ">=",
+              "value": 30
+            }
+          ]
+        },
+        {
+          "criteria_text": "Extension limited to 20 degrees.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 30,
+          "requirements": [
+            {
+              "fact": "knee.extension_lack_degrees",
+              "operator": ">=",
+              "value": 20
+            }
+          ]
+        },
+        {
+          "criteria_text": "Extension limited to 15 degrees.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 20,
+          "requirements": [
+            {
+              "fact": "knee.extension_lack_degrees",
+              "operator": ">=",
+              "value": 15
+            }
+          ]
+        },
+        {
+          "criteria_text": "Extension limited to 10 degrees.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 10,
+          "requirements": [
+            {
+              "fact": "knee.extension_lack_degrees",
+              "operator": ">=",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "criteria_text": "Extension limited to 5 degrees.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 0,
+          "requirements": [
+            {
+              "fact": "knee.extension_lack_degrees",
+              "operator": ">=",
+              "value": 5
+            }
+          ]
+        }
+      ],
+      "diagnostic_code": "5261",
+      "laterality_matters": true,
+      "notes": [],
+      "section": "4.71a",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.71a"
+      ],
+      "title": "Limitation of extension of the leg"
+    },
+    {
+      "aliases": [
+        "shoulder limitation",
+        "limited arm motion"
+      ],
+      "automatable": "partial",
+      "body_system": "musculoskeletal",
+      "criteria": [
+        {
+          "criteria_text": "Major arm flexion and/or abduction limited to 25 degrees from the side.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 40,
+          "requirements": [
+            {
+              "fact": "shoulder.motion_degrees",
+              "operator": "<=",
+              "value": 25
+            },
+            {
+              "fact": "shoulder.dominant",
+              "operator": "eq",
+              "value": true
+            }
+          ]
+        },
+        {
+          "criteria_text": "Minor arm limited to 25 degrees, or major arm limited midway between side and shoulder level (45 degrees).",
+          "judgment": "medical",
+          "manual_review_required": true,
+          "percent": 30,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Either arm limited at shoulder level (90 degrees), or minor arm limited midway (45 degrees).",
+          "judgment": "medical",
+          "manual_review_required": true,
+          "percent": 20,
+          "requirements": []
+        }
+      ],
+      "diagnostic_code": "5201",
+      "laterality_matters": true,
+      "notes": [
+        "Dominant side matters. Valid range-of-motion and functional-loss evidence are required."
+      ],
+      "section": "4.71a",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.71a"
+      ],
+      "title": "Limitation of motion of the arm"
+    },
+    {
+      "aliases": [
+        "ankle limitation",
+        "limited ankle motion"
+      ],
+      "automatable": "partial",
+      "body_system": "musculoskeletal",
+      "criteria": [
+        {
+          "criteria_text": "Marked limitation: less than 5 degrees dorsiflexion or less than 10 degrees plantar flexion.",
+          "judgment": "medical",
+          "manual_review_required": true,
+          "percent": 20,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Moderate limitation: less than 15 degrees dorsiflexion or less than 30 degrees plantar flexion.",
+          "judgment": "medical",
+          "manual_review_required": true,
+          "percent": 10,
+          "requirements": []
+        }
+      ],
+      "diagnostic_code": "5271",
+      "laterality_matters": true,
+      "notes": [],
+      "section": "4.71a",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.71a"
+      ],
+      "title": "Limited motion of ankle"
+    },
+    {
+      "aliases": [
+        "metatarsalgia",
+        "mortons neuroma"
+      ],
+      "automatable": "mechanical",
+      "body_system": "musculoskeletal",
+      "criteria": [
+        {
+          "criteria_text": "Anterior metatarsalgia, unilateral or bilateral.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 10,
+          "requirements": [
+            {
+              "fact": "foot.metatarsalgia_confirmed",
+              "operator": "eq",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "diagnostic_code": "5279",
+      "laterality_matters": false,
+      "notes": [
+        "The schedule provides one 10-percent evaluation whether unilateral or bilateral."
+      ],
+      "section": "4.71a",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.71a"
+      ],
+      "title": "Metatarsalgia, anterior (Morton\u2019s disease)"
+    },
+    {
+      "aliases": [
+        "hallux valgus",
+        "bunion"
+      ],
+      "automatable": "qualitative",
+      "body_system": "musculoskeletal",
+      "criteria": [
+        {
+          "criteria_text": "Operated with resection of metatarsal head, or severe if equivalent to amputation of the great toe.",
+          "judgment": "medical",
+          "manual_review_required": true,
+          "percent": 10,
+          "requirements": []
+        }
+      ],
+      "diagnostic_code": "5280",
+      "laterality_matters": true,
+      "notes": [],
+      "section": "4.71a",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.71a"
+      ],
+      "title": "Hallux valgus, unilateral"
+    },
+    {
+      "aliases": [
+        "foot injury",
+        "foot pain"
+      ],
+      "automatable": "qualitative",
+      "body_system": "musculoskeletal",
+      "criteria": [
+        {
+          "criteria_text": "Severe foot injury.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 30,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Moderately severe foot injury.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 20,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Moderate foot injury.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 10,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Actual loss of use of the foot.",
+          "judgment": "medical_and_adjudicative",
+          "manual_review_required": true,
+          "percent": 40,
+          "requirements": []
+        }
+      ],
+      "diagnostic_code": "5284",
+      "laterality_matters": true,
+      "notes": [
+        "Do not use this code to bypass a more specific code without legal support."
+      ],
+      "section": "4.71a",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.71a"
+      ],
+      "title": "Other foot injuries"
+    },
+    {
+      "aliases": [
+        "sciatica",
+        "sciatic neuropathy",
+        "lower extremity radiculopathy"
+      ],
+      "automatable": "qualitative",
+      "body_system": "neurologic",
+      "criteria": [
+        {
+          "criteria_text": "Complete paralysis with the regulatory findings.",
+          "judgment": "medical",
+          "manual_review_required": true,
+          "percent": 80,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Severe incomplete paralysis with marked muscular atrophy.",
+          "judgment": "medical_and_adjudicative",
+          "manual_review_required": true,
+          "percent": 60,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Moderately severe incomplete paralysis.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 40,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Moderate incomplete paralysis.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 20,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Mild incomplete paralysis.",
+          "judgment": "adjudicative",
+          "manual_review_required": true,
+          "percent": 10,
+          "requirements": []
+        }
+      ],
+      "diagnostic_code": "8520",
+      "laterality_matters": true,
+      "notes": [
+        "Sensory symptoms, strength, reflexes, atrophy, distribution, and examiner findings must be reconciled."
+      ],
+      "section": "4.124a",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.124a"
+      ],
+      "title": "Paralysis of the sciatic nerve"
+    },
+    {
+      "aliases": [
+        "vertigo",
+        "peripheral vestibular disorder"
+      ],
+      "automatable": "partial",
+      "body_system": "auditory",
+      "criteria": [
+        {
+          "criteria_text": "Dizziness and occasional staggering.",
+          "judgment": "medical",
+          "manual_review_required": true,
+          "percent": 30,
+          "requirements": [
+            {
+              "fact": "vestibular.dizziness",
+              "operator": "eq",
+              "value": true
+            },
+            {
+              "fact": "vestibular.occasional_staggering",
+              "operator": "eq",
+              "value": true
+            }
+          ]
+        },
+        {
+          "criteria_text": "Occasional dizziness.",
+          "judgment": "medical",
+          "manual_review_required": true,
+          "percent": 10,
+          "requirements": [
+            {
+              "fact": "vestibular.occasional_dizziness",
+              "operator": "eq",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "diagnostic_code": "6204",
+      "laterality_matters": false,
+      "notes": [
+        "Objective findings supporting the diagnosis are required before a compensable evaluation under this code."
+      ],
+      "section": "4.87",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.87"
+      ],
+      "title": "Peripheral vestibular disorders"
+    },
+    {
+      "aliases": [
+        "allergic rhinitis",
+        "vasomotor rhinitis"
+      ],
+      "automatable": "partial",
+      "body_system": "respiratory",
+      "criteria": [
+        {
+          "criteria_text": "With polyps.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 30,
+          "requirements": [
+            {
+              "fact": "rhinitis.polyps",
+              "operator": "eq",
+              "value": true
+            }
+          ]
+        },
+        {
+          "criteria_text": "Without polyps, but with greater than 50-percent obstruction on both sides or complete obstruction on one side.",
+          "judgment": "medical",
+          "manual_review_required": true,
+          "percent": 10,
+          "requirements": []
+        }
+      ],
+      "diagnostic_code": "6522",
+      "laterality_matters": false,
+      "notes": [],
+      "section": "4.97",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.97"
+      ],
+      "title": "Allergic or vasomotor rhinitis"
+    },
+    {
+      "aliases": [
+        "chronic sinusitis",
+        "sinusitis"
+      ],
+      "automatable": "qualitative",
+      "body_system": "respiratory",
+      "criteria": [
+        {
+          "criteria_text": "Following radical surgery with chronic osteomyelitis, or near-constant sinusitis with specified symptoms after repeated surgeries.",
+          "judgment": "medical_and_adjudicative",
+          "manual_review_required": true,
+          "percent": 50,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Three or more incapacitating episodes per year requiring prolonged antibiotics, or more than six non-incapacitating episodes with specified symptoms.",
+          "judgment": "medical_and_adjudicative",
+          "manual_review_required": true,
+          "percent": 30,
+          "requirements": []
+        },
+        {
+          "criteria_text": "One or two incapacitating episodes per year requiring prolonged antibiotics, or three to six non-incapacitating episodes with specified symptoms.",
+          "judgment": "medical_and_adjudicative",
+          "manual_review_required": true,
+          "percent": 10,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Detected by imaging only.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 0,
+          "requirements": [
+            {
+              "fact": "sinusitis.imaging_only",
+              "operator": "eq",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "diagnostic_code": "6514",
+      "laterality_matters": false,
+      "notes": [
+        "An incapacitating episode has a regulatory definition requiring bed rest and treatment by a physician."
+      ],
+      "section": "4.97",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.97"
+      ],
+      "title": "Chronic sphenoid sinusitis (General Rating Formula for Sinusitis)"
+    },
+    {
+      "aliases": [
+        "asthma",
+        "bronchial asthma"
+      ],
+      "automatable": "qualitative",
+      "body_system": "respiratory",
+      "criteria": [
+        {
+          "criteria_text": "Qualifying very low pulmonary-function result, more than one attack per week with respiratory failure, or daily systemic high-dose corticosteroids/immunosuppressives.",
+          "judgment": "medical",
+          "manual_review_required": true,
+          "percent": 100,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Qualifying pulmonary-function result, monthly physician visits for exacerbations, or at least three courses per year of systemic corticosteroids.",
+          "judgment": "medical",
+          "manual_review_required": true,
+          "percent": 60,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Qualifying pulmonary-function result, daily inhalational/oral bronchodilator therapy, or inhalational anti-inflammatory medication.",
+          "judgment": "medical",
+          "manual_review_required": true,
+          "percent": 30,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Qualifying pulmonary-function result or intermittent inhalational/oral bronchodilator therapy.",
+          "judgment": "medical",
+          "manual_review_required": true,
+          "percent": 10,
+          "requirements": []
+        }
+      ],
+      "diagnostic_code": "6602",
+      "laterality_matters": false,
+      "notes": [
+        "Pulmonary-function interpretation and medication classification require medical evidence."
+      ],
+      "section": "4.97",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.97"
+      ],
+      "title": "Bronchial asthma"
+    },
+    {
+      "aliases": [
+        "hypertension",
+        "high blood pressure"
+      ],
+      "automatable": "qualitative",
+      "body_system": "cardiovascular",
+      "criteria": [
+        {
+          "criteria_text": "Diastolic pressure predominantly 130 or more.",
+          "judgment": "medical_and_adjudicative",
+          "manual_review_required": true,
+          "percent": 60,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Diastolic pressure predominantly 120 or more.",
+          "judgment": "medical_and_adjudicative",
+          "manual_review_required": true,
+          "percent": 40,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Diastolic pressure predominantly 110 or more, or systolic pressure predominantly 200 or more.",
+          "judgment": "medical_and_adjudicative",
+          "manual_review_required": true,
+          "percent": 20,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Diastolic pressure predominantly 100 or more; systolic pressure predominantly 160 or more; or history of diastolic pressure predominantly 100 or more requiring continuous medication.",
+          "judgment": "medical_and_adjudicative",
+          "manual_review_required": true,
+          "percent": 10,
+          "requirements": []
+        }
+      ],
+      "diagnostic_code": "7101",
+      "laterality_matters": false,
+      "notes": [
+        "A single reading does not establish \u201cpredominantly.\u201d Diagnosis and confirmation standards remain medical questions."
+      ],
+      "section": "4.104",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.104"
+      ],
+      "title": "Hypertensive vascular disease"
+    },
+    {
+      "aliases": [
+        "diabetes",
+        "diabetes mellitus"
+      ],
+      "automatable": "qualitative",
+      "body_system": "endocrine",
+      "criteria": [
+        {
+          "criteria_text": "Regulatory combination of insulin, restricted diet, regulation of activities, frequent ketoacidosis/hypoglycemia care, and progressive complications.",
+          "judgment": "medical_and_adjudicative",
+          "manual_review_required": true,
+          "percent": 100,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Insulin, restricted diet, regulation of activities, specified hospitalization/visit frequency, plus noncompensable complications.",
+          "judgment": "medical_and_adjudicative",
+          "manual_review_required": true,
+          "percent": 60,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Insulin, restricted diet, and regulation of activities.",
+          "judgment": "medical_and_adjudicative",
+          "manual_review_required": true,
+          "percent": 40,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Insulin and restricted diet, or oral hypoglycemic agent and restricted diet.",
+          "judgment": "medical",
+          "manual_review_required": true,
+          "percent": 20,
+          "requirements": []
+        },
+        {
+          "criteria_text": "Managed by restricted diet only.",
+          "judgment": "medical",
+          "manual_review_required": true,
+          "percent": 10,
+          "requirements": []
+        }
+      ],
+      "diagnostic_code": "7913",
+      "laterality_matters": false,
+      "notes": [
+        "\u201cRegulation of activities\u201d has a specific legal/medical meaning; complications may need separate evaluation."
+      ],
+      "section": "4.119",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.119"
+      ],
+      "title": "Diabetes mellitus"
+    },
+    {
+      "aliases": [
+        "painful scar",
+        "unstable scar"
+      ],
+      "automatable": "partial",
+      "body_system": "skin",
+      "criteria": [
+        {
+          "criteria_text": "Five or more scars that are unstable or painful.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 30,
+          "requirements": [
+            {
+              "fact": "scars.unstable_or_painful_count",
+              "operator": ">=",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "criteria_text": "Three or four scars that are unstable or painful.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 20,
+          "requirements": [
+            {
+              "fact": "scars.unstable_or_painful_count",
+              "operator": ">=",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "criteria_text": "One or two scars that are unstable or painful.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 10,
+          "requirements": [
+            {
+              "fact": "scars.unstable_or_painful_count",
+              "operator": ">=",
+              "value": 1
+            }
+          ]
+        }
+      ],
+      "diagnostic_code": "7804",
+      "laterality_matters": false,
+      "notes": [
+        "Add 10 percent under the regulatory note when one or more scars are both unstable and painful; overlap and location rules require review."
+      ],
+      "section": "4.118",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.118"
+      ],
+      "title": "Unstable or painful scars"
+    },
+    {
+      "aliases": [
+        "superficial scar",
+        "nonlinear scar"
+      ],
+      "automatable": "mechanical",
+      "body_system": "skin",
+      "criteria": [
+        {
+          "criteria_text": "Area or areas of 144 square inches (929 sq. cm.) or greater.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 10,
+          "requirements": [
+            {
+              "fact": "scars.area_sq_cm",
+              "operator": ">=",
+              "value": 929
+            }
+          ]
+        }
+      ],
+      "diagnostic_code": "7802",
+      "laterality_matters": false,
+      "notes": [],
+      "section": "4.118",
+      "separate_issue_flags": [],
+      "source_ids": [
+        "CFR-4.118"
+      ],
+      "title": "Burn scars or scars due to other causes, not of head, face, or neck, not associated with underlying soft-tissue damage"
+    },
+    {
+      "aliases": [
+        "erectile dysfunction",
+        "ed"
+      ],
+      "automatable": "mechanical",
+      "body_system": "genitourinary",
+      "criteria": [
+        {
+          "criteria_text": "Erectile dysfunction, with or without penile deformity.",
+          "judgment": "medical",
+          "manual_review_required": false,
+          "percent": 0,
+          "requirements": [
+            {
+              "fact": "sexual_health.erectile_dysfunction_confirmed",
+              "operator": "eq",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "diagnostic_code": "7522",
+      "laterality_matters": false,
+      "notes": [
+        "Review entitlement to special monthly compensation under 38 C.F.R. \u00a7 3.350; a 0-percent schedular evaluation does not resolve SMC."
+      ],
+      "section": "4.115b",
+      "separate_issue_flags": [
+        "SMC review"
+      ],
+      "source_ids": [
+        "CFR-4.115b"
+      ],
+      "title": "Erectile dysfunction, with or without penile deformity"
+    }
+  ],
+  "effective_through": "2026-07-13",
+  "manual_review_required": true,
+  "normalization_rules": [
+    "Regulatory text is summarized or quoted narrowly.",
+    "Qualitative criteria are never algorithmically resolved.",
+    "Mechanical facts require explicit provenance.",
+    "A diagnostic code in this file is not a diagnosis or service-connection conclusion."
+  ],
+  "retrieval_date": "2026-07-16",
+  "schema_version": "1.0.0",
+  "scope": "Curated, manually reviewed subset of commonly encountered criteria; not a full transcription of 38 CFR Part 4.",
+  "snapshot_id": "part4-curated-2026-07-13-v1",
+  "snapshot_version": "2026.07.13-1",
+  "source_ids": [
+    "CFR-4.1",
+    "CFR-4.25",
+    "CFR-4.26"
+  ],
+  "source_url": "https://www.ecfr.gov/current/title-38/chapter-I/part-4",
+  "stale_after": "2026-10-14"
+}

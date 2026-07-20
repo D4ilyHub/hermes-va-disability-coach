@@ -1,0 +1,702 @@
+{
+  "file_manifest_note": "Entries exclude MANIFEST.json and SHA256SUMS to avoid recursive hashes. SHA256SUMS covers MANIFEST.json.",
+  "files": [
+    {
+      "path": ".editorconfig",
+      "sha256": "b1379c69f4db0aa58035b38bc5eedae81fc02fc591e80757d28f07d4df46e84d",
+      "size_bytes": 216
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha256": "cc4a01f33b143f0c2c386403d589998e655c6e176e0fe7b5f0483cdb361f35d4",
+      "size_bytes": 786
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/rating_rule_update.yml",
+      "sha256": "c27a32b20de3d17e0ef7ff1e58db0973f5affe4b4932e9ee14518b53974cf99e",
+      "size_bytes": 793
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/source_correction.yml",
+      "sha256": "6bbc0c3198579c62ea4b6ee06a8b75617c066a632db96bdf7358d66c8ed2293a",
+      "size_bytes": 807
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha256": "b6db2ed97538963147fa0584a159d5713ce9725414613b13ffafefd1c030ded5",
+      "size_bytes": 471
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "c297dd9d718aec9f18209dc48f8bf30f6c02d5af9e44d52e144c875d0a6259bd",
+      "size_bytes": 523
+    },
+    {
+      "path": ".github/workflows/link-check.yml",
+      "sha256": "bc77a14e6e44ee0472bd85b228b535a91384ee63cd83eb7b0aa6891992e0d816",
+      "size_bytes": 340
+    },
+    {
+      "path": ".github/workflows/source-freshness.yml",
+      "sha256": "13f074a480bf53e505b0cb9b1ec0951de568022696678638a1ff8ff0b2c96469",
+      "size_bytes": 471
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "480360dcaf648e8379da6728c4e8d4d041b47887c243ae6b18bd84c8416e11a3",
+      "size_bytes": 161
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "11f243cf685a471770cc9f705149cd1bc310822e731b9f944ffa1953f5ee1685",
+      "size_bytes": 1814
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "40677ffccdafec7d450fba5798d76b11c5669c721c58207e28726f04ce36a01d",
+      "size_bytes": 570
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "32c32cdaab776d26e7738598d5296dc0b392f532cf17bbb2a9ce30453963f255",
+      "size_bytes": 627
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "29c7a8985a03962910483c4414476a0c1389bddedec34b182af4a07a01b67224",
+      "size_bytes": 1529
+    },
+    {
+      "path": "INSTALL.md",
+      "sha256": "1a70cfd97509c7e246f6d8e846df3bc8e21267a44e333b88c793ace687aedb9d",
+      "size_bytes": 1511
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "f82a4c854232db85c53c81529e76bec97d90821b7331ffb46b948208f76bbf44",
+      "size_bytes": 1096
+    },
+    {
+      "path": "README.md",
+      "sha256": "68badf3295ab08688dada325ee41ec00a6dc7257a005fc4a2211d377ed98a3c5",
+      "size_bytes": 5422
+    },
+    {
+      "path": "REPOSITORY_TREE.txt",
+      "sha256": "6a73c6efa926f3c5d4ee104e6c91b6893c2d55c3cf27f5bcf61540fac8f4cf0b",
+      "size_bytes": 6266
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "3835029547ed0ea16ea19808634dbb224bcc44594f1aba1e3ffd8f9c30eb2cec",
+      "size_bytes": 1203
+    },
+    {
+      "path": "SOURCE_REGISTRY.csv",
+      "sha256": "ac3b54d5b7f8c23616297ca551c2b4544896c61976ee53c9f86d1a1e185ea6e1",
+      "size_bytes": 155036
+    },
+    {
+      "path": "VERSION",
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+      "size_bytes": 6
+    },
+    {
+      "path": "docs/COMPLETION_REPORT.md",
+      "sha256": "f164f20dca10e053a85514539ba760102f38887acbc603d638d8c4d615381098",
+      "size_bytes": 2276
+    },
+    {
+      "path": "docs/CONTRADICTIONS.md",
+      "sha256": "5cdc1c673bdbc48953823a79b6036a16d6534ed30b9babd33992b306c5e6595a",
+      "size_bytes": 1365
+    },
+    {
+      "path": "docs/ESTIMATOR_DESIGN.md",
+      "sha256": "aad56e484015942646cf6f5cb345bc972fcbd25bd3cdbb4312460860bafb46a8",
+      "size_bytes": 2677
+    },
+    {
+      "path": "docs/FRESHNESS_LOG.md",
+      "sha256": "7f63444f71fe2ec195bcc59991912be77943b7a212088222120ec40348397127",
+      "size_bytes": 818
+    },
+    {
+      "path": "docs/HERMES_COMPATIBILITY.md",
+      "sha256": "e14d97706a9d68f3bb5d2e8f5c4d386941c8570841e4ac3b5911f47f90df1b09",
+      "size_bytes": 1707
+    },
+    {
+      "path": "docs/MAINTAINER_GUIDE.md",
+      "sha256": "0e3a0da1690e42371dabd4f7b2f2440824fa23d04c1857e241e582db2f01d5b5",
+      "size_bytes": 1273
+    },
+    {
+      "path": "docs/REJECTED_SOURCES.md",
+      "sha256": "e1f732663ecf7efbcdb79c57682e7baaf44bcb603d0dc7bf5a55631d20b53821",
+      "size_bytes": 1239
+    },
+    {
+      "path": "docs/RELEASE_PROCESS.md",
+      "sha256": "4bb6c0dc1bd2e47e3e5221d723a16e2fca1f1d17a0bcca5413ccb69d8b66ac41",
+      "size_bytes": 925
+    },
+    {
+      "path": "docs/RESEARCH_GAPS.md",
+      "sha256": "26aec35c9247fb3162c57bac21706e0ceb1d2ebb27a30aed76a10106fb02a310",
+      "size_bytes": 1171
+    },
+    {
+      "path": "docs/RESEARCH_METHOD.md",
+      "sha256": "d3fe5e52854713bc7c80b766cf307fa205d6881941695eb23f59bc0dccc61686",
+      "size_bytes": 1703
+    },
+    {
+      "path": "docs/SEARCH_LOG.md",
+      "sha256": "002493ac54d37d67a0c90ddc40aa9d5f92998f37dc625aa5c1c3459bf75ca6e6",
+      "size_bytes": 1751
+    },
+    {
+      "path": "docs/SOURCE_REGISTRY.md",
+      "sha256": "c68a91d05877d3cc42d4a4daac5881386c5084e86e992269321502e54bafc70e",
+      "size_bytes": 109829
+    },
+    {
+      "path": "docs/THREAT_MODEL.md",
+      "sha256": "5dc2e465d657d242c3a1d815c69a474c9d2d378a66783e6b93e48d1adc6f30d9",
+      "size_bytes": 1610
+    },
+    {
+      "path": "docs/hermes-va-disability-coach-banner.png",
+      "sha256": "e825c42cb1111d9995119a561fc6620fb21c251234afc2c31b6e75671ac864dd",
+      "size_bytes": 1872786
+    },
+    {
+      "path": "hermes_va_disability_coach.egg-info/PKG-INFO",
+      "sha256": "66e7244eb6aedb326be05fd5e1c86d18f22fe07b94fb123ab0b0d95974284c98",
+      "size_bytes": 582
+    },
+    {
+      "path": "hermes_va_disability_coach.egg-info/SOURCES.txt",
+      "sha256": "5dc77c3f951d914d43bf5778405aa2e7fa1251eb9d2c10b2cadfb431e8e4afc2",
+      "size_bytes": 533
+    },
+    {
+      "path": "hermes_va_disability_coach.egg-info/dependency_links.txt",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_bytes": 1
+    },
+    {
+      "path": "hermes_va_disability_coach.egg-info/requires.txt",
+      "sha256": "e53c474ac1c1d149f6b692121b09c358f72d1569fad43c0e5ae0d0026889272d",
+      "size_bytes": 90
+    },
+    {
+      "path": "hermes_va_disability_coach.egg-info/top_level.txt",
+      "sha256": "af917d862ad13153451446d886f968eceddaf852233ecf6f2b16801185d183ce",
+      "size_bytes": 7
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "692fb750e42ff5bf832fc99fe1c9f58350b045b786efb2b9e656963a56f89a46",
+      "size_bytes": 716
+    },
+    {
+      "path": "skills/va-disability-coach/SKILL.md",
+      "sha256": "0d504631e9944213985110e284b6ccada3d7c447901b87491421c84b0634a7d4",
+      "size_bytes": 14300
+    },
+    {
+      "path": "skills/va-disability-coach/assets/README.md",
+      "sha256": "ceefad24b3b41f00e6f21ec6afdfe3084e4c824d9ab7b8781d9acb39811c3fb1",
+      "size_bytes": 201
+    },
+    {
+      "path": "skills/va-disability-coach/examples/deidentified_doctor_plan.md",
+      "sha256": "8ddccd6753b36956b402e38c5dc5c97d599509a0946aec96fc9253ce96fb6d70",
+      "size_bytes": 1169
+    },
+    {
+      "path": "skills/va-disability-coach/examples/deidentified_issue_inventory.md",
+      "sha256": "cd07037e099558b616c14e4610c276a4d93b6167c8c9b1ceffe50faea8e5060a",
+      "size_bytes": 1321
+    },
+    {
+      "path": "skills/va-disability-coach/examples/deidentified_rating_scenario.json",
+      "sha256": "e4f2f74a6cff8deb64b43b17bbf8c1fc9d928fe79a3c9d81e0f19a298d4996d8",
+      "size_bytes": 584
+    },
+    {
+      "path": "skills/va-disability-coach/examples/deidentified_transition_plan.md",
+      "sha256": "7bcf7cffafb5adf9238ff135c4db03ae5712c2165623c6d6f52da57febd8ef3b",
+      "size_bytes": 3395
+    },
+    {
+      "path": "skills/va-disability-coach/references/ACTIVE_DUTY_TRANSITION.md",
+      "sha256": "fe18f8397d5fe991ddcc359cbbf3d40e3fdb3d58786246a5bbf6adc3e1d446a6",
+      "size_bytes": 3625
+    },
+    {
+      "path": "skills/va-disability-coach/references/AUTHORITY_HIERARCHY.md",
+      "sha256": "5e04158871d272c2e368d7c98467b748207636de8451663396a2ca32cf9797cb",
+      "size_bytes": 2048
+    },
+    {
+      "path": "skills/va-disability-coach/references/BDD_AND_SHA.md",
+      "sha256": "0d6c130a90378c1a3616ec7efa1ed0847c1e47f09016cb0b74dc9d7c0aa3b310",
+      "size_bytes": 2132
+    },
+    {
+      "path": "skills/va-disability-coach/references/BILATERAL_FACTOR.md",
+      "sha256": "88c552d0176638be30182202c2c8fb40b90df2513e777cffb7d7a042c463ba0f",
+      "size_bytes": 1727
+    },
+    {
+      "path": "skills/va-disability-coach/references/CLAIMS_PROCESS.md",
+      "sha256": "8506d6c2addf4a81dc7910055c22550b14ffcfc43da6d5dedf61f144ec38f999",
+      "size_bytes": 2243
+    },
+    {
+      "path": "skills/va-disability-coach/references/CLINICIAN_COMMUNICATION.md",
+      "sha256": "7022827dd825aa01be2d42513baf9214e103c61eedb70ae6468a14d4b8df61ed",
+      "size_bytes": 4667
+    },
+    {
+      "path": "skills/va-disability-coach/references/COACHING_STYLE.md",
+      "sha256": "4d76a8c9d2292b3d58610125a5ca49b6e36ff2200a581c5b14fe102e3a210ed1",
+      "size_bytes": 7872
+    },
+    {
+      "path": "skills/va-disability-coach/references/COMBINED_RATINGS.md",
+      "sha256": "ca73f5a350afaf1f57db824ce67e48451d05d994defc29df5c79744cda95ae98",
+      "size_bytes": 1795
+    },
+    {
+      "path": "skills/va-disability-coach/references/CRISIS_SAFETY.md",
+      "sha256": "cc9671b5fbd8c5afacfe02d30a2257a418c4a4234e2cbad0b049b75fc4fbdfc4",
+      "size_bytes": 1767
+    },
+    {
+      "path": "skills/va-disability-coach/references/C_AND_P_EXAMINATIONS.md",
+      "sha256": "5bdd6164dcf9961f13f0bc49ea6ea4a695a0f082398c157f2c59018abce02cad",
+      "size_bytes": 1796
+    },
+    {
+      "path": "skills/va-disability-coach/references/DECISION_REVIEW.md",
+      "sha256": "96cf81aa6b32daab4215050be0ba9e859186499b940f89924b8adcc64a7789a2",
+      "size_bytes": 1736
+    },
+    {
+      "path": "skills/va-disability-coach/references/EVIDENCE_DEVELOPMENT.md",
+      "sha256": "75f06c0e18ef49b95fc70dbb7f5fd2797051ca01a29949053a62f28a5cd80eaf",
+      "size_bytes": 1934
+    },
+    {
+      "path": "skills/va-disability-coach/references/GLOSSARY.md",
+      "sha256": "32d5c3bf56fc760bd4ac555899c78413db7a957038769ec0f314b6ec64362641",
+      "size_bytes": 1786
+    },
+    {
+      "path": "skills/va-disability-coach/references/INDEX.md",
+      "sha256": "c4fe01185b22f6bbcdab2ab7e7e2f14509eafcb771e6bd4c7234a83c609e68f5",
+      "size_bytes": 3010
+    },
+    {
+      "path": "skills/va-disability-coach/references/MEDICAL_DOCUMENTATION.md",
+      "sha256": "040147551fdb4df30ecb72fcfd535dec3bdf4ce4c6dd7fc16298a0824c260fbd",
+      "size_bytes": 3771
+    },
+    {
+      "path": "skills/va-disability-coach/references/OVERLAP_AND_ANTI_PYRAMIDING.md",
+      "sha256": "750d834dc61fe8c3afb0f79d140911ac9f1488b5c28145a4045f363b4f238bf4",
+      "size_bytes": 1668
+    },
+    {
+      "path": "skills/va-disability-coach/references/PRESUMPTIONS_AND_EXPOSURES.md",
+      "sha256": "40b3ae331e4acffc8be7d20644356560622b131364f5ab5e4d74b9d813966dbd",
+      "size_bytes": 1832
+    },
+    {
+      "path": "skills/va-disability-coach/references/RATING_ESTIMATOR.md",
+      "sha256": "206c03f9cfb579920c6ffa300f8051a8abdb98225c41cf9b017769e812efc61f",
+      "size_bytes": 1960
+    },
+    {
+      "path": "skills/va-disability-coach/references/RATING_SCHEDULE.md",
+      "sha256": "bf9bb2d6f99d367b7abfb9a81f45fef8bba68f66b80eda3bc8b323ca54b7c5a3",
+      "size_bytes": 1974
+    },
+    {
+      "path": "skills/va-disability-coach/references/REPRESENTATION.md",
+      "sha256": "f85e250d48bb7d0c2f9129236f04c74cb70e2e1a0e94578b4507709590411e91",
+      "size_bytes": 1513
+    },
+    {
+      "path": "skills/va-disability-coach/references/SECONDARY_AND_AGGRAVATION.md",
+      "sha256": "94d67ebc016a4c2a483fa5c47a63371fd7fdd1d8b99e3f384d368102c5e4e602",
+      "size_bytes": 1608
+    },
+    {
+      "path": "skills/va-disability-coach/references/SENSITIVE_SUBJECTS.md",
+      "sha256": "668a378a7150ff3140b6fa51bfc57c085dea4a14f86d960d637a0c6e57dd62c8",
+      "size_bytes": 2437
+    },
+    {
+      "path": "skills/va-disability-coach/references/SERVICE_CONNECTION.md",
+      "sha256": "fa74d1f6ef6dc82f3cae9fe09ca760934018f6c5bb028b735c334d118b29de78",
+      "size_bytes": 2045
+    },
+    {
+      "path": "skills/va-disability-coach/references/TDIU_AND_SMC_FLAGS.md",
+      "sha256": "654b6d7e31ff41de628f0dfb72ad94cc6e35717e24f8c172ad1cb6ca62b67c9c",
+      "size_bytes": 1727
+    },
+    {
+      "path": "skills/va-disability-coach/references/URGENT_MEDICAL.md",
+      "sha256": "36a0925ee36b393adc91959446d9d70dd9bc0b4f1c8e3c5451df493747e5aa88",
+      "size_bytes": 1507
+    },
+    {
+      "path": "skills/va-disability-coach/references/body-systems/AUDITORY_VESTIBULAR.md",
+      "sha256": "8ee86bc2bee592e5822d438cc03b827b926ed79bf0f773e42d397589c74f30c6",
+      "size_bytes": 1613
+    },
+    {
+      "path": "skills/va-disability-coach/references/body-systems/CARDIOVASCULAR.md",
+      "sha256": "89ee4aa6198c8b0eace5465da9fb1a3fb63626473243093dd59db4fc3bfbcfbd",
+      "size_bytes": 1519
+    },
+    {
+      "path": "skills/va-disability-coach/references/body-systems/ENDOCRINE_METABOLIC.md",
+      "sha256": "0e35dd8b6b571f0387509f03f4c983e75cb9459e9a63108ff0a77e1f0c06b3d8",
+      "size_bytes": 1543
+    },
+    {
+      "path": "skills/va-disability-coach/references/body-systems/EXPOSURES_MEDICATION_SURGICAL.md",
+      "sha256": "ba86093876df4812d706779229e89850cdc0e2f58eb6609792ef292177d336a5",
+      "size_bytes": 1679
+    },
+    {
+      "path": "skills/va-disability-coach/references/body-systems/GASTROINTESTINAL.md",
+      "sha256": "c0c6e46977291feb7aee0f6bf8d9d96f537c2aeac4ae36f8f6fe19416b8b5285",
+      "size_bytes": 1555
+    },
+    {
+      "path": "skills/va-disability-coach/references/body-systems/GENITOURINARY_REPRODUCTIVE_SEXUAL.md",
+      "sha256": "47a6f34fbdf781a7320daa2f88746bba3208dac7ebaf9b93f103adda1d39eaf2",
+      "size_bytes": 1720
+    },
+    {
+      "path": "skills/va-disability-coach/references/body-systems/MENTAL_HEALTH.md",
+      "sha256": "3ddafec3db497316b37fab8454b949ada5737e598cea1dca77473468bd117263",
+      "size_bytes": 1580
+    },
+    {
+      "path": "skills/va-disability-coach/references/body-systems/MUSCULOSKELETAL.md",
+      "sha256": "ce8365f9d920ff4572d00ea9b25ba42cb2f4e6b9b96df013a124a067c460e848",
+      "size_bytes": 1616
+    },
+    {
+      "path": "skills/va-disability-coach/references/body-systems/NEUROLOGIC_TBI_HEADACHE.md",
+      "sha256": "eff410ecc07b1edbd48a63fec0c339cdaeeaaf0072288a4c56d0efc92194e3be",
+      "size_bytes": 1676
+    },
+    {
+      "path": "skills/va-disability-coach/references/body-systems/SKIN_SCARS.md",
+      "sha256": "7ca8f7d86f25f22b213cb3332a70c55b8165314142149129b2fce310c25c5759",
+      "size_bytes": 1544
+    },
+    {
+      "path": "skills/va-disability-coach/references/body-systems/SLEEP_RESPIRATORY.md",
+      "sha256": "75ef3f93a6fc6f6e16d6344df00338b05a7553378a3f2a168879f253a68f699a",
+      "size_bytes": 1617
+    },
+    {
+      "path": "skills/va-disability-coach/references/data/diagnostic_code_index.json",
+      "sha256": "a715f75c6928770c84daccf37f92a1ca09f5eddc43a9c5d31d1c69237bee642e",
+      "size_bytes": 8582
+    },
+    {
+      "path": "skills/va-disability-coach/references/data/forms_and_dbq_index.json",
+      "sha256": "3e086856608ff1fc66f109219c919a976e03c50da31b1b932608ed3be44da802",
+      "size_bytes": 3106
+    },
+    {
+      "path": "skills/va-disability-coach/references/data/rating_schedule_snapshot.json",
+      "sha256": "629b8b74dc873e511e89355681de5bb850cc5ebc8333875f3eb5207121945f33",
+      "size_bytes": 44458
+    },
+    {
+      "path": "skills/va-disability-coach/references/data/source_metadata.json",
+      "sha256": "cf1e123b4eec218f353445ba4eb5fe435849ee153f17bd2a4dd7c30cc15ea382",
+      "size_bytes": 2474
+    },
+    {
+      "path": "skills/va-disability-coach/references/data/source_registry.csv",
+      "sha256": "ac3b54d5b7f8c23616297ca551c2b4544896c61976ee53c9f86d1a1e185ea6e1",
+      "size_bytes": 155036
+    },
+    {
+      "path": "skills/va-disability-coach/scripts/check_source_freshness.py",
+      "sha256": "dae35e40852abcef4569e52cda878d3778f9e8c9527a9852152ddb5627dec587",
+      "size_bytes": 1746
+    },
+    {
+      "path": "skills/va-disability-coach/scripts/combine_ratings.py",
+      "sha256": "cbee1a77a65ca892004ecf9ba2dcb23fbfbbae8432a3efe6eff7d8e5a6fba450",
+      "size_bytes": 9930
+    },
+    {
+      "path": "skills/va-disability-coach/scripts/estimate_condition.py",
+      "sha256": "667dab07a5b119e2ef8873f2cfc41ab7497fb1de6df1cc2944b64d37804b8ad8",
+      "size_bytes": 10427
+    },
+    {
+      "path": "skills/va-disability-coach/scripts/generate_transition_plan.py",
+      "sha256": "6050b8a5bd1776ef4cb63569f12a7b3616214ac95ee1e0224e1e5d9228c09107",
+      "size_bytes": 7662
+    },
+    {
+      "path": "skills/va-disability-coach/scripts/update_rating_schedule.py",
+      "sha256": "e375194fde96fd27ace804aa169979957527fb0c10e285530bf7e81a81db3f89",
+      "size_bytes": 1963
+    },
+    {
+      "path": "skills/va-disability-coach/scripts/validate_issue_record.py",
+      "sha256": "647e5dcb4778ab5d9c00f3632726ca4ff9d41089ae72bf9f883a2c70548a4b37",
+      "size_bytes": 1723
+    },
+    {
+      "path": "skills/va-disability-coach/scripts/validate_skill_bundle.py",
+      "sha256": "7ed4ae80ff916b5ccdd971f941eb85018bede0dc4deab72b777c968204fa4094",
+      "size_bytes": 6962
+    },
+    {
+      "path": "skills/va-disability-coach/templates/c_and_p_preparation.md",
+      "sha256": "e565a070d7d6293fd5922ce1c5a6b50bf620cdd2c975d412c7c72f06145ac828",
+      "size_bytes": 684
+    },
+    {
+      "path": "skills/va-disability-coach/templates/claim_timeline.csv",
+      "sha256": "3bf70a23d2b5c9a537eaf41357978983a266d7c7a50e5ba4c325aa2145493489",
+      "size_bytes": 174
+    },
+    {
+      "path": "skills/va-disability-coach/templates/decision_review.md",
+      "sha256": "29ef599886d7241ad1c4f1c01b3c3269521525b0e8eae9ee6251d422bdca16f8",
+      "size_bytes": 477
+    },
+    {
+      "path": "skills/va-disability-coach/templates/doctor_appointment_agenda.md",
+      "sha256": "899db75760306a764745fd6cfaf929133d27c88753073828a8396a6ffc3f0b9f",
+      "size_bytes": 1495
+    },
+    {
+      "path": "skills/va-disability-coach/templates/evidence_matrix.csv",
+      "sha256": "24da0343d0b5f11d5368637af98048ba75a57dfe112b5e38424919d81cc71160",
+      "size_bytes": 219
+    },
+    {
+      "path": "skills/va-disability-coach/templates/issue_inventory.md",
+      "sha256": "e1b671e42749fe995f33d5f8eabbbb280ac16494b4b0bdfd277e20e2a5ac2db4",
+      "size_bytes": 634
+    },
+    {
+      "path": "skills/va-disability-coach/templates/issue_record.schema.json",
+      "sha256": "c51f7d0c47423b179a1631e3cfbadaae446a3480699ae317c8773b5bd6c65945",
+      "size_bytes": 6664
+    },
+    {
+      "path": "skills/va-disability-coach/templates/issue_record.yaml",
+      "sha256": "a01c1442af8c8fa6633b2254f558155cc17c8bee6e434f69b33204322c2430a8",
+      "size_bytes": 1363
+    },
+    {
+      "path": "skills/va-disability-coach/templates/medication_effects.md",
+      "sha256": "16f470f8a06f35679fbf5799dd06a5d4070abcb3fb566fafec8e6870187776ae",
+      "size_bytes": 350
+    },
+    {
+      "path": "skills/va-disability-coach/templates/post_exam_notes.md",
+      "sha256": "0994c8bb506999c798f5eed44509915e04bd92e783b681fc701099b4d9fdefac",
+      "size_bytes": 380
+    },
+    {
+      "path": "skills/va-disability-coach/templates/pre_separation_plan.md",
+      "sha256": "e70597ed6cba1db783223127d90513c986a66eee8bcf26ac53f4065d4467e947",
+      "size_bytes": 432
+    },
+    {
+      "path": "skills/va-disability-coach/templates/rating_estimate_input.yaml",
+      "sha256": "2d9d52f21abb2c4e184d81ffceb0d63f7cf61a9266b4e6ca1de597b456640f0a",
+      "size_bytes": 726
+    },
+    {
+      "path": "skills/va-disability-coach/templates/sensitive_topic_plan.md",
+      "sha256": "4b2784c5a78396d5281c21daa9a2394a48de38f296d535a1b2c8696b8763d51a",
+      "size_bytes": 638
+    },
+    {
+      "path": "skills/va-disability-coach/templates/symptom_function_summary.md",
+      "sha256": "d98893ddf14aeb7722fff70f71e56344ac52e50d75a6828829ebbc5ea0e67d28",
+      "size_bytes": 397
+    },
+    {
+      "path": "skills.sh.json",
+      "sha256": "d4142e731c98d56dbdc57304d55ae20bd84d68842aff8f368b34fd1c9acbf5b6",
+      "size_bytes": 169
+    },
+    {
+      "path": "tests/TEST_RESULTS.md",
+      "sha256": "709bbd4ea601c3f9417bebe349b8bc32091a40e86216e19619e064cf6a021764",
+      "size_bytes": 3430
+    },
+    {
+      "path": "tests/adversarial_scenarios.jsonl",
+      "sha256": "ddc47d055e6aed799bd06c9bd0adbd7f5204b6b5c42010087ff3d49edfea77ce",
+      "size_bytes": 22522
+    },
+    {
+      "path": "tests/citation_scenarios.jsonl",
+      "sha256": "df2f57d9613e72fa5aac637b1187f82dde5f478e44957681bbbf8eda2129eb41",
+      "size_bytes": 19090
+    },
+    {
+      "path": "tests/coaching_scenarios.jsonl",
+      "sha256": "dbf840cece1f29da9348bdfc8926dba8a4230ced633578ee778dcc65b9443808",
+      "size_bytes": 5826
+    },
+    {
+      "path": "tests/combined_scenarios.jsonl",
+      "sha256": "c64522913958d3cd36a67171cfb90b412a9da8f701812b7fab37d5fd5aecf1d2",
+      "size_bytes": 34662
+    },
+    {
+      "path": "tests/communication_scenarios.jsonl",
+      "sha256": "93704b16856a64a763b05581013aea1f93c9a6f7de0c3630f847132df11c759c",
+      "size_bytes": 42381
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "15f15738c99397fcf8dd1e73beeb5f3542c46c3414efedf26a9a66ecaf1be170",
+      "size_bytes": 153
+    },
+    {
+      "path": "tests/estimator_scenarios.jsonl",
+      "sha256": "da137840fb2c963add4a63bf7cf8804f6c5d04a6fbcd26f7c66471a97e6bba06",
+      "size_bytes": 52140
+    },
+    {
+      "path": "tests/functional_scenarios.jsonl",
+      "sha256": "7483264433e9c697f66adceb5ddf8deb5fcf62f5be7611a9d336dbd4f134804d",
+      "size_bytes": 34015
+    },
+    {
+      "path": "tests/overlap_scenarios.jsonl",
+      "sha256": "3cbd994917ae2aff828ad3de762024bb370e26d62324ef264958ff2b91bb4a8d",
+      "size_bytes": 18805
+    },
+    {
+      "path": "tests/safety_scenarios.jsonl",
+      "sha256": "790d67b79f94ec8f55c9278c9344a28d7a6532c1a977d22076c5788609c78f75",
+      "size_bytes": 13828
+    },
+    {
+      "path": "tests/test_bilateral_factor.py",
+      "sha256": "6fa74738787ff2211c2113d10219b7848c6c2e2a5455322c3d8285dabe1eb09a",
+      "size_bytes": 1524
+    },
+    {
+      "path": "tests/test_bundle_install.py",
+      "sha256": "a185090540e22566c1805befb40d15454f9c30c0766cd77cae5f8d0df56efe04",
+      "size_bytes": 1840
+    },
+    {
+      "path": "tests/test_coaching_contract.py",
+      "sha256": "eebd9a989035d29a813f522395171442b09982b4a7312691a1a0d3fc256398c1",
+      "size_bytes": 1891
+    },
+    {
+      "path": "tests/test_combined_ratings.py",
+      "sha256": "663e169d498e90f668228b9c68e603c4724f500d99a6d2bbbe70f9a34a3bcbf9",
+      "size_bytes": 1221
+    },
+    {
+      "path": "tests/test_estimator.py",
+      "sha256": "f268bfb6a9758cd6a4e7dcf607c0e5aea312ab1a62526dbb94b688e3ab2e9a18",
+      "size_bytes": 1755
+    },
+    {
+      "path": "tests/test_issue_schema.py",
+      "sha256": "0faa5bcb7fce78015bfec57f954c758dc549daf866d265fbd3ca4f02b0d01f53",
+      "size_bytes": 611
+    },
+    {
+      "path": "tests/test_scenarios.py",
+      "sha256": "05a5a900545f285e9ec534ae286fce3b2f1f18aaf5eede9430ccb943c5f6f91f",
+      "size_bytes": 2263
+    },
+    {
+      "path": "tests/test_security.py",
+      "sha256": "6809a771b06a362922d7ee056e5ec50a68bd62e3eefe2de4179700a9e79faa43",
+      "size_bytes": 2839
+    },
+    {
+      "path": "tests/test_source_registry.py",
+      "sha256": "b031f0e71c256737ddeb2414eb1eca43445547e92d846e7f77a19feaf48b4f96",
+      "size_bytes": 907
+    },
+    {
+      "path": "tests/test_transition_planner.py",
+      "sha256": "28a4b8b3221dbb61ddf9d1904844328fc0baf038c901beacb70561edd5d00212",
+      "size_bytes": 998
+    },
+    {
+      "path": "tests/transition_scenarios.jsonl",
+      "sha256": "ab6784da8083c851397aaac6c4e5eee74b2f02ece5acb2dce450c92cfc6bc8c1",
+      "size_bytes": 30502
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "f504072b37afcbeb6c744f3e539fde42d14c7a2e90033851627d803353a4b5da",
+      "size_bytes": 62391
+    }
+  ],
+  "hermes": {
+    "skill_path": "skills/va-disability-coach",
+    "supported_range": ">=0.18.2,<0.19.0",
+    "tap_path": "skills/",
+    "verified_version": "0.18.2"
+  },
+  "license": "MIT",
+  "privacy": {
+    "contains_credentials": false,
+    "contains_personal_profile_files": false,
+    "examples": "generic and de-identified"
+  },
+  "rating_snapshot": {
+    "coverage": "partial",
+    "diagnostic_code_entries": 27,
+    "effective_through": "2026-07-13",
+    "id": "va-part4-curated-2026-07-13",
+    "stale_after": "2026-10-14",
+    "version": "1.0.0"
+  },
+  "release_date": "2026-07-16",
+  "repository": "hermes-va-disability-coach",
+  "research_cutoff": "2026-07-16",
+  "skill": "va-disability-coach",
+  "sources": {
+    "clinical": 55,
+    "entries": 339,
+    "normalized_unique_domains": 68,
+    "official_primary": 291
+  },
+  "tests": {
+    "bundle_validation_status": "PASS",
+    "pytest_passed": 399,
+    "runtime_files_explicitly_referenced": 67,
+    "scenario_contracts": 346
+  },
+  "version": "1.0.0"
+}

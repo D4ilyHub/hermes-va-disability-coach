@@ -1,0 +1,347 @@
+{
+  "$defs": {
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low",
+            "unknown"
+          ]
+        },
+        "disputed_status": {
+          "enum": [
+            "not_disputed",
+            "disputed",
+            "unclear"
+          ]
+        },
+        "document_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "document_name": {
+          "type": "string"
+        },
+        "exact_extracted_fact": {
+          "type": "string"
+        },
+        "fact_character": {
+          "enum": [
+            "objective",
+            "clinician_reported",
+            "patient_reported",
+            "user_entered"
+          ]
+        },
+        "page_or_section": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_type": {
+          "enum": [
+            "service_treatment_record",
+            "private_medical_record",
+            "VA_medical_record",
+            "personnel_record",
+            "lay_statement",
+            "exam_report",
+            "decision",
+            "user_entered",
+            "other"
+          ]
+        }
+      },
+      "required": [
+        "source_type",
+        "document_name",
+        "document_date",
+        "page_or_section",
+        "exact_extracted_fact",
+        "fact_character",
+        "confidence",
+        "disputed_status"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "https://example.org/va-disability-coach/issue_record.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "assistive_devices": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "body_system": {
+      "type": "string"
+    },
+    "claim_status": {
+      "type": "string"
+    },
+    "confidence_and_uncertainty": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "confirmed_diagnosis": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "contradictory_evidence": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "current_symptoms": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "daily_living_effects": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "diagnosis_source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "diagnosis_status": {
+      "enum": [
+        "none",
+        "suspected",
+        "differential",
+        "confirmed",
+        "disputed",
+        "unknown"
+      ]
+    },
+    "duration": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence_by_element": {
+      "additionalProperties": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "type": "object"
+    },
+    "frequency": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "functional_effects": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "in_service_event_illness_injury_duty_or_exposure": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "issue_id": {
+      "pattern": "^[A-Z0-9][A-Z0-9_-]{2,39}$",
+      "type": "string"
+    },
+    "last_updated": {
+      "format": "date",
+      "type": "string"
+    },
+    "laterality": {
+      "enum": [
+        "left",
+        "right",
+        "bilateral",
+        "midline",
+        "not_applicable",
+        "unknown"
+      ]
+    },
+    "medication_side_effects": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "medications": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "missing_evidence": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "occupational_effects": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "onset": {
+      "additionalProperties": false,
+      "properties": {
+        "approximate_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "certainty": {
+          "enum": [
+            "exact",
+            "approximate",
+            "unknown"
+          ]
+        },
+        "context": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "approximate_date",
+        "certainty"
+      ],
+      "type": "object"
+    },
+    "post_service_events": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "potential_overlapping_manifestations": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "potential_rating_criteria": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "potential_service_connection_theories": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "potentially_related_issues": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "relationship_effects": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "relevant_decisions": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "relevant_examinations": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "relevant_records": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "severity": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_provenance": {
+      "items": {
+        "$ref": "#/$defs/provenance"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "symptom_label": {
+      "maxLength": 200,
+      "minLength": 1,
+      "type": "string"
+    },
+    "treatment": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "triggers": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "user_wording": {
+      "maxLength": 500,
+      "minLength": 1,
+      "type": "string"
+    },
+    "variability": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "issue_id",
+    "user_wording",
+    "symptom_label",
+    "body_system",
+    "diagnosis_status",
+    "onset",
+    "current_symptoms",
+    "functional_effects",
+    "source_provenance",
+    "last_updated"
+  ],
+  "title": "De-identified VA disability coaching issue record",
+  "type": "object"
+}

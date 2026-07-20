@@ -1,0 +1,25 @@
+as_of: 2026-07-16
+issue_id: ISSUE-001
+user_wording: "Recurrent ringing in both ears"
+confirmed_diagnosis:
+  exists: true
+  name: tinnitus
+  source: "Audiology note, 2026-06-01, assessment section"
+candidate_diagnostic_codes: ["6260"]
+facts:
+  tinnitus.recurrent:
+    value: true
+    provenance:
+      source_type: VA_medical_record
+      document_name: Audiology note
+      document_date: 2026-06-01
+      page_or_section: assessment
+      exact_extracted_fact: "Patient reports recurrent tinnitus."
+      fact_character: patient_reported
+      confidence: high
+      disputed_status: not_disputed
+flags:
+  unemployability_possible: false
+  recent_surgery_or_cast: false
+  recent_hospitalization_over_21_days: false
+notes: []

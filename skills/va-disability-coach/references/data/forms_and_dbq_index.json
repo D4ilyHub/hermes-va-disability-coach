@@ -1,0 +1,85 @@
+{
+  "dbqs": [
+    {
+      "locator": "https://www.benefits.va.gov/compensation/dbq_publicdbqs.asp",
+      "source_id": "VA-DBQ",
+      "title": "Public Disability Benefits Questionnaires index",
+      "use": "Reference current public DBQs; do not fill or submit automatically."
+    }
+  ],
+  "forms": [
+    {
+      "locator": "https://www.va.gov/find-forms/about-form-21-526EZ/",
+      "source_id": "FORM-21-526EZ",
+      "title": "VA Form 21-526EZ: Application for Disability Compensation"
+    },
+    {
+      "locator": "https://www.va.gov/find-forms/about-form-21-0966/",
+      "source_id": "FORM-21-0966",
+      "title": "VA Form 21-0966: Intent to File"
+    },
+    {
+      "locator": "https://www.va.gov/find-forms/about-form-20-0995/",
+      "source_id": "FORM-20-0995",
+      "title": "VA Form 20-0995: Decision Review Request\u2014Supplemental Claim"
+    },
+    {
+      "locator": "https://www.va.gov/find-forms/about-form-20-0996/",
+      "source_id": "FORM-20-0996",
+      "title": "VA Form 20-0996: Decision Review Request\u2014Higher-Level Review"
+    },
+    {
+      "locator": "https://www.va.gov/find-forms/about-form-10182/",
+      "source_id": "FORM-10182",
+      "title": "VA Form 10182: Decision Review Request\u2014Board Appeal"
+    },
+    {
+      "locator": "https://www.va.gov/find-forms/about-form-21-10210/",
+      "source_id": "FORM-21-10210",
+      "title": "VA Form 21-10210: Lay/Witness Statement"
+    },
+    {
+      "locator": "https://www.va.gov/find-forms/about-form-21-4138/",
+      "source_id": "FORM-21-4138",
+      "title": "VA Form 21-4138: Statement in Support of Claim"
+    },
+    {
+      "locator": "https://www.va.gov/find-forms/about-form-21-8940/",
+      "source_id": "FORM-21-8940",
+      "title": "VA Form 21-8940: Increased Compensation Based on Unemployability"
+    },
+    {
+      "locator": "https://www.va.gov/find-forms/about-form-21-4192/",
+      "source_id": "FORM-21-4192",
+      "title": "VA Form 21-4192: Request for Employment Information"
+    },
+    {
+      "locator": "https://www.va.gov/find-forms/about-form-21-4142/",
+      "source_id": "FORM-21-4142",
+      "title": "VA Form 21-4142: Authorization to Disclose Information"
+    },
+    {
+      "locator": "https://www.va.gov/find-forms/about-form-21-4142a/",
+      "source_id": "FORM-21-4142A",
+      "title": "VA Form 21-4142a: General Release for Medical Provider Information"
+    },
+    {
+      "locator": "https://www.va.gov/find-forms/about-form-21-22/",
+      "source_id": "FORM-21-22",
+      "title": "VA Form 21-22: Appointment of VSO"
+    },
+    {
+      "locator": "https://www.va.gov/find-forms/about-form-21-22a/",
+      "source_id": "FORM-21-22A",
+      "title": "VA Form 21-22a: Appointment of Individual as Claimant Representative"
+    },
+    {
+      "locator": "https://www.va.gov/find-forms/about-form-20-10206/",
+      "source_id": "FORM-20-10206",
+      "title": "VA Form 20-10206: FOIA or Privacy Act Request"
+    }
+  ],
+  "retrieved": "2026-07-16",
+  "schema_version": "1.0.0",
+  "warning": "Always open the current VA form landing page before use. Forms and DBQs can change."
+}

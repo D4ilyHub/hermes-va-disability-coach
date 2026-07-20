@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this skill, cite the repository and version."
+title: "hermes-va-disability-coach"
+type: software
+version: 1.0.0
+date-released: 2026-07-16
+license: MIT
+repository-code: "https://github.com/D4ilyHub/hermes-va-disability-coach"
+abstract: "A public, reusable Hermes skill for VA disability education, truthful clinical communication, evidence organization, transition planning, and transparent rating estimation."
+keywords:
+  - Hermes Agent
+  - veterans benefits
+  - VA disability
+  - transition assistance
+  - clinical communication
