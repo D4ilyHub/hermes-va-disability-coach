@@ -1,6 +1,6 @@
 # hermes-va-disability-coach
 
-![An abstract guided path connecting care, communication, organized records, and transition planning](docs/hermes-va-disability-coach-banner.png)
+![A transitioning service member beside organized disability-claim records and a stethoscope, with the title VA Disability Coach](docs/hermes-va-disability-coach-banner.png)
 
 An independent, care-first Hermes skill for VA disability education and active-duty transition planning—covering truthful clinician communication, evidence organization, C&P preparation, decision review, and transparent rating estimates.
 

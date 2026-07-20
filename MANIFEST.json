@@ -78,8 +78,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "68badf3295ab08688dada325ee41ec00a6dc7257a005fc4a2211d377ed98a3c5",
-      "size_bytes": 5422
+      "sha256": "45fbf7658889de541adbe92ce011665a8ba72cfd8b41e5d3076e780ffb621def",
+      "size_bytes": 5450
     },
     {
       "path": "REPOSITORY_TREE.txt",
@@ -168,8 +168,8 @@
     },
     {
       "path": "docs/hermes-va-disability-coach-banner.png",
-      "sha256": "e825c42cb1111d9995119a561fc6620fb21c251234afc2c31b6e75671ac864dd",
-      "size_bytes": 1872786
+      "sha256": "13f1da1d90ce49bc288ffce40dc386cbcacdf965a20e1296c8d4bdf8c1126ece",
+      "size_bytes": 2380212
     },
     {
       "path": "hermes_va_disability_coach.egg-info/PKG-INFO",
